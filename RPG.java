@@ -1,30 +1,30 @@
 public class RPG{
  public static void main (String[] args){
- 	int hp; 
-	int mp;
-	String name; 
-	String skill;
+  int hp; 
+  int mp;
+  String name; 
+  String skill;
+  	
+  Character Brave= new Character();
+  Brave.hp = 500;
+  Brave.mp = 500;
+  Brave.name = "å‹‡è€…";
+  Brave.skill = "ã‚¿ãƒ³ã‚¹ã‚’æ¼ã‚‹";
 	
-	Character Brave= new Character();
-	Brave.hp = 500;
-	Brave.mp = 500;
-	Brave.name = "—EÒ";
-	Brave.skill = "ƒ^ƒ“ƒX‚ğ‹™‚é";
-	
-	Character Mage = new Character();
-	Mage.hp = 200;
-	Mage.mp = 1000;
-	Mage.name = "–‚–@g‚¢";
-	Mage.skill = "ƒtƒ@ƒCƒ„[ƒ{[ƒ‹";
-
-	Character Satan = new Character();
-	Satan.hp = 99999;
-	Satan.mp = 99999;
-	Satan.name = "–‚‰¤";
-	Satan.skill = "áÅ‘®¢Š«";
-
-	Brave.introduce();
-	Mage.introduce();
-	Satan.introduce();	 
+  Character Mage = new Character();
+  Mage.hp = 200;
+  Mage.mp = 1000;
+  Mage.name = "é­”æ³•ä½¿ã„";
+  Mage.skill = "ãƒ•ã‚¡ã‚¤ãƒ¤ãƒ¼ãƒœãƒ¼ãƒ«";
+  
+  Character Satan = new Character();
+  Satan.hp = 99999;
+  Satan.mp = 99999;
+  Satan.name = "é­”ç‹";
+  Satan.skill = "çœ·å±å¬å–š";
+  
+  Brave.introduce();
+  Mage.introduce();
+  Satan.introduce();	 
  }
 }
