@@ -4,9 +4,9 @@ class Character{
  public String name; 		
  public String skill; 
  public void introduce(){
-  System.out.println( name + "のステータス");
+  System.out.println( name + "縺ｮ繧ｹ繝�繝ｼ繧ｿ繧ｹ
   System.out.println("HP "+ hp);
   System.out.println("MP "+ mp);
-  System.out.println("特殊技能:"+skill);	
+  System.out.println("迚ｹ谿頑橿閭ｽ);	
  }		
 }
