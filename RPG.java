@@ -1,16 +1,11 @@
 public class RPG{
- public static void main (String[] args){
-  int hp; 
-  int mp;
-  String name; 
-  String skill;
-  	
+  public static void main (String[] args){	
   Character Brave= new Character();
   Brave.hp = 500;
   Brave.mp = 500;
   Brave.name = "勇者";
   Brave.skill = "タンスを漁る";
-	
+  	
   Character Mage = new Character();
   Mage.hp = 200;
   Mage.mp = 1000;
@@ -26,5 +21,5 @@ public class RPG{
   Brave.introduce();
   Mage.introduce();
   Satan.introduce();	 
- }
+  }
 }
