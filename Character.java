@@ -15,12 +15,12 @@ class Character{
 
   public void attack(Character chara){
     System.out.println(this.name+"の攻撃！"+"「"+this.skill+"!」");
-    chara.damege(this.atk);
+    chara.damage(this.atk);
   }
 
-  public void damege(int damege){
-    System.out.println(this.name+"は"+damege+"のダメージを受けた！");
-    this.hp -= damege;
+  public void damege(int damage){
+    System.out.println(this.name+"は"+damage+"のダメージを受けた！");
+    this.hp -= damage;
     System.out.println(this.name+"のHP "+this.hp);
     if(this.hp<=0){
     System.out.println(this.name+"は倒れた・・・");
