@@ -1,24 +1,23 @@
 class SuperSatan extends Character{
   public void awakening(){
     System.out.println("");
-    System.out.println("uEEE‚±‚ê‚ÅI‚í‚è‚Æv‚Á‚½‚©Hv");
+    System.out.println("ã€Œãƒ»ãƒ»ãƒ»ã“ã‚Œã§çµ‚ã‚ã‚Šã¨æ€ã£ãŸã‹ï¼Ÿã€");
     System.out.println("");
-    System.out.println("-----–‚‰¤‚Í^‚Ìp‚ğŒ»‚µ‚½I-----");
+    System.out.println("-----é­”ç‹ã¯çœŸã®å§¿ã‚’ç¾ã—ãŸï¼-----");
     System.out.println("");
    }
 
   public void introduce(){
-    System.out.println( name + "‚ÌƒXƒe[ƒ^ƒX");
-    System.out.println("HP •s–¾");
-    System.out.println("MP •s–¾");
-    System.out.println("ATK •s–¾");
-    System.out.println("“Áê‹Z”\:"+skill);	
+    System.out.println( name + "ã®ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹");
+    System.out.println("HP ä¸æ˜");
+    System.out.println("MP ä¸æ˜");
+    System.out.println("ATK ä¸æ˜");
+    System.out.println("ç‰¹æ®ŠæŠ€èƒ½:"+skill);	
   }
 
   public void attack(Character chara){
-    System.out.println("uâ–]‚·‚é‚ª‚¢‚¢EEEv");
-    System.out.println("u"+this.skill+"!v");
+    System.out.println("ã€Œçµ¶æœ›ã™ã‚‹ãŒã„ã„ãƒ»ãƒ»ãƒ»ã€");
+    System.out.println("ã€Œ"+this.skill+"!ã€");
     chara.damege(this.atk);
   }
-
 }
