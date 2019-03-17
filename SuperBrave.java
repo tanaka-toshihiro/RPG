@@ -1,38 +1,38 @@
 class SuperBrave extends Character{
   public void awakening(){
     System.out.println("");
-    System.out.println("u‹–‚³‚È‚¢‚¼I–‚‰¤IIIv");
+    System.out.println("ã€Œè¨±ã•ãªã„ãï¼é­”ç‹ï¼ï¼ï¼ã€");
     System.out.println("");
-    System.out.println("-----—EÒ‚ÍŠoÁ‚µ‚½I-----");
+    System.out.println("-----å‹‡è€…ã¯è¦šé†’ã—ãŸï¼-----");
     System.out.println("");
    }
   
   public void attack(Character chara){
-    System.out.println("‚±‚ê‚ÅI‚í‚ç‚¹‚Ä‚â‚éIII‚­‚ç‚¦EEE");
-    System.out.println("u"+this.skill+"!v");
+    System.out.println("ã“ã‚Œã§çµ‚ã‚ã‚‰ã›ã¦ã‚„ã‚‹ï¼ï¼ï¼ãã‚‰ãˆãƒ»ãƒ»ãƒ»");
+    System.out.println("ã€Œ"+this.skill+"!ã€");
     chara.damege(this.atk);
   }
   
   public void damege(int damege){
-    System.out.println(this.name+"‚Í"+damege+"‚Ìƒ_ƒ[ƒW‚ğó‚¯‚½I");
+    System.out.println(this.name+"ã¯"+damege+"ã®ãƒ€ãƒ¡ãƒ¼ã‚¸ã‚’å—ã‘ãŸï¼");
     this.hp -= damege;
-    System.out.println(this.name+"‚ÌHP "+this.hp);
+    System.out.println(this.name+"ã®HP "+this.hp);
     
     if(this.hp<=0){
-      System.out.println(this.name+"‚Í“|‚ê‚½EEE");
-      System.out.println("‚»‚ÌŒãA¢ŠE‚Í–‚‰¤‚É‚æ‚Á‚Äx”z‚³‚ê‚½EEE");
+      System.out.println(this.name+"ã¯å€’ã‚ŒãŸãƒ»ãƒ»ãƒ»");
+      System.out.println("ãã®å¾Œã€ä¸–ç•Œã¯é­”ç‹ã«ã‚ˆã£ã¦æ”¯é…ã•ã‚ŒãŸãƒ»ãƒ»ãƒ»");
       System.out.println("");
       System.out.println("");
       System.out.println("");
-      System.out.println("‚ ‚«‚ç‚ß‚é");
-      System.out.println("‚à‚¤ˆê“xí‚¤©");
+      System.out.println("ã‚ãã‚‰ã‚ã‚‹");
+      System.out.println("ã‚‚ã†ä¸€åº¦æˆ¦ã†â†");
     }
   }
-
+  
   public void newgame(){
-      System.out.println("");
-      System.out.println("");
-      System.out.println("");
-    System.out.println("—E Ò ‚ÍƒR ƒ“ ƒe ƒB ƒj ƒ… [ ‚ğ ‘I ‘ğ ‚µ ‚½ ");
- }
+    System.out.println("");
+    System.out.println("");
+    System.out.println("");
+    System.out.println("å‹‡ è€… ã¯ã‚³ ãƒ³ ãƒ† ã‚£ ãƒ‹ ãƒ¥ ãƒ¼ ã‚’ é¸ æŠ ã— ãŸ ");
+  }
 }
